@@ -1,0 +1,474 @@
+[10-Nov-2022 23:10:52 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /app/wp-includes/class-wpdb.php on line 1775
+[10-Nov-2022 23:10:52 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /app/wp-includes/class-wpdb.php on line 1775
+[10-Nov-2022 23:10:52 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /app/wp-includes/class-wpdb.php on line 1775
+[10-Nov-2022 23:10:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_cache_get() in /app/wp-includes/option.php:165
+Stack trace:
+#0 /app/wp-includes/l10n.php(63): get_option('WPLANG')
+#1 /app/wp-includes/l10n.php(139): get_locale()
+#2 /app/wp-includes/l10n.php(766): determine_locale()
+#3 /app/wp-includes/load.php(1395): load_textdomain('default', '/app/wp-content...')
+#4 /app/wp-includes/class-wpdb.php(1815): wp_load_translations_early()
+#5 /app/wp-includes/class-wpdb.php(734): wpdb->db_connect()
+#6 /app/wp-includes/load.php(562): wpdb->__construct('wordpress', 'wordpress', 'wordpress', 'database')
+#7 /app/wp-settings.php(124): require_wp_db()
+#8 /app/wp-config.php(100): require_once('/app/wp-setting...')
+#9 /app/wp-load.php(50): require_once('/app/wp-config....')
+#10 /app/wp-blog-header.php(13): require_once('/app/wp-load.ph...')
+#11 /app/index.php(17): require('/app/wp-blog-he...')
+#12 {main}
+  thrown in /app/wp-includes/option.php on line 165
+[10-Nov-2022 23:10:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_cache_get() in /app/wp-includes/option.php:165
+Stack trace:
+#0 /app/wp-includes/l10n.php(63): get_option('WPLANG')
+#1 /app/wp-includes/l10n.php(139): get_locale()
+#2 /app/wp-includes/l10n.php(766): determine_locale()
+#3 /app/wp-includes/load.php(1395): load_textdomain('default', '/app/wp-content...')
+#4 /app/wp-includes/class-wpdb.php(1815): wp_load_translations_early()
+#5 /app/wp-includes/class-wpdb.php(734): wpdb->db_connect()
+#6 /app/wp-includes/load.php(562): wpdb->__construct('wordpress', 'wordpress', 'wordpress', 'database')
+#7 /app/wp-settings.php(124): require_wp_db()
+#8 /app/wp-config.php(100): require_once('/app/wp-setting...')
+#9 /app/wp-load.php(50): require_once('/app/wp-config....')
+#10 /app/wp-blog-header.php(13): require_once('/app/wp-load.ph...')
+#11 /app/index.php(17): require('/app/wp-blog-he...')
+#12 {main}
+  thrown in /app/wp-includes/option.php on line 165
+[10-Nov-2022 23:10:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_cache_get() in /app/wp-includes/option.php:165
+Stack trace:
+#0 /app/wp-includes/l10n.php(63): get_option('WPLANG')
+#1 /app/wp-includes/l10n.php(139): get_locale()
+#2 /app/wp-includes/l10n.php(766): determine_locale()
+#3 /app/wp-includes/load.php(1395): load_textdomain('default', '/app/wp-content...')
+#4 /app/wp-includes/class-wpdb.php(1815): wp_load_translations_early()
+#5 /app/wp-includes/class-wpdb.php(734): wpdb->db_connect()
+#6 /app/wp-includes/load.php(562): wpdb->__construct('wordpress', 'wordpress', 'wordpress', 'database')
+#7 /app/wp-settings.php(124): require_wp_db()
+#8 /app/wp-config.php(100): require_once('/app/wp-setting...')
+#9 /app/wp-load.php(50): require_once('/app/wp-config....')
+#10 /app/wp-blog-header.php(13): require_once('/app/wp-load.ph...')
+#11 /app/index.php(17): require('/app/wp-blog-he...')
+#12 {main}
+  thrown in /app/wp-includes/option.php on line 165
+[10-Nov-2022 23:10:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function set() on null in /app/wp-includes/l10n.php:784
+Stack trace:
+#0 /app/wp-includes/l10n.php(872): load_textdomain('default', '/app/wp-content...', 'pt_BR')
+#1 /app/wp-includes/class-wp-fatal-error-handler.php(47): load_default_textdomain()
+#2 [internal function]: WP_Fatal_Error_Handler->handle()
+#3 {main}
+  thrown in /app/wp-includes/l10n.php on line 784
+[10-Nov-2022 23:10:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function set() on null in /app/wp-includes/l10n.php:784
+Stack trace:
+#0 /app/wp-includes/l10n.php(872): load_textdomain('default', '/app/wp-content...', 'pt_BR')
+#1 /app/wp-includes/class-wp-fatal-error-handler.php(47): load_default_textdomain()
+#2 [internal function]: WP_Fatal_Error_Handler->handle()
+#3 {main}
+  thrown in /app/wp-includes/l10n.php on line 784
+[10-Nov-2022 23:10:52 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /app/wp-includes/class-wpdb.php on line 1775
+[10-Nov-2022 23:10:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function set() on null in /app/wp-includes/l10n.php:784
+Stack trace:
+#0 /app/wp-includes/l10n.php(872): load_textdomain('default', '/app/wp-content...', 'pt_BR')
+#1 /app/wp-includes/class-wp-fatal-error-handler.php(47): load_default_textdomain()
+#2 [internal function]: WP_Fatal_Error_Handler->handle()
+#3 {main}
+  thrown in /app/wp-includes/l10n.php on line 784
+[10-Nov-2022 23:10:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_cache_get() in /app/wp-includes/option.php:165
+Stack trace:
+#0 /app/wp-includes/l10n.php(63): get_option('WPLANG')
+#1 /app/wp-includes/l10n.php(139): get_locale()
+#2 /app/wp-includes/l10n.php(766): determine_locale()
+#3 /app/wp-includes/load.php(1395): load_textdomain('default', '/app/wp-content...')
+#4 /app/wp-includes/class-wpdb.php(1815): wp_load_translations_early()
+#5 /app/wp-includes/class-wpdb.php(734): wpdb->db_connect()
+#6 /app/wp-includes/load.php(562): wpdb->__construct('wordpress', 'wordpress', 'wordpress', 'database')
+#7 /app/wp-settings.php(124): require_wp_db()
+#8 /app/wp-config.php(100): require_once('/app/wp-setting...')
+#9 /app/wp-load.php(50): require_once('/app/wp-config....')
+#10 /app/wp-blog-header.php(13): require_once('/app/wp-load.ph...')
+#11 /app/index.php(17): require('/app/wp-blog-he...')
+#12 {main}
+  thrown in /app/wp-includes/option.php on line 165
+[10-Nov-2022 23:10:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function set() on null in /app/wp-includes/l10n.php:784
+Stack trace:
+#0 /app/wp-includes/l10n.php(872): load_textdomain('default', '/app/wp-content...', 'pt_BR')
+#1 /app/wp-includes/class-wp-fatal-error-handler.php(47): load_default_textdomain()
+#2 [internal function]: WP_Fatal_Error_Handler->handle()
+#3 {main}
+  thrown in /app/wp-includes/l10n.php on line 784
+[11-Nov-2022 00:02:45 UTC] PHP Fatal error:  Uncaught WPEmerge\Exceptions\ConfigurationException: The following class is not defined or does not implement WPEmerge\ServiceProviders\ServiceProviderInterface: Suno\Routing\RouteConditionsServiceProvider in /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php:67
+Stack trace:
+#0 [internal function]: WPEmerge\Application\Application->WPEmerge\Application\{closure}('Suno\\Routing\\Ro...')
+#1 /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php(79): array_map(Object(Closure), Array)
+#2 /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/Application.php(87): WPEmerge\Application\Application->loadServiceProviders(Object(Pimple\Container))
+#3 /app/wp-content/themes/teste/functions.php(52): WPEmerge\Application\Application->bootstrap(Array)
+#4 /app/wp-settings.php(585): include('/app/wp-content...')
+#5 /app/wp-config.php(100): require_once('/app/wp-setting...')
+#6 /app/wp-load.php(50): require_onc in /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php on line 67
+[11-Nov-2022 00:02:45 UTC] PHP Notice:  Trying to access array offset on value of type bool in /app/wp-includes/class-wp-recovery-mode-email-service.php on line 372
+[11-Nov-2022 00:02:45 UTC] PHP Notice:  Trying to access array offset on value of type bool in /app/wp-includes/class-wp-recovery-mode-email-service.php on line 373
+[11-Nov-2022 00:02:58 UTC] PHP Fatal error:  Uncaught WPEmerge\Exceptions\ConfigurationException: The following class is not defined or does not implement WPEmerge\ServiceProviders\ServiceProviderInterface: Suno\Routing\RouteConditionsServiceProvider in /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php:67
+Stack trace:
+#0 [internal function]: WPEmerge\Application\Application->WPEmerge\Application\{closure}('Suno\\Routing\\Ro...')
+#1 /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php(79): array_map(Object(Closure), Array)
+#2 /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/Application.php(87): WPEmerge\Application\Application->loadServiceProviders(Object(Pimple\Container))
+#3 /app/wp-content/themes/teste/functions.php(52): WPEmerge\Application\Application->bootstrap(Array)
+#4 /app/wp-settings.php(585): include('/app/wp-content...')
+#5 /app/wp-config.php(100): require_once('/app/wp-setting...')
+#6 /app/wp-load.php(50): require_onc in /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php on line 67
+[11-Nov-2022 00:03:10 UTC] PHP Fatal error:  Uncaught WPEmerge\Exceptions\ConfigurationException: The following class is not defined or does not implement WPEmerge\ServiceProviders\ServiceProviderInterface: Suno\Routing\RouteConditionsServiceProvider in /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php:67
+Stack trace:
+#0 [internal function]: WPEmerge\Application\Application->WPEmerge\Application\{closure}('Suno\\Routing\\Ro...')
+#1 /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php(79): array_map(Object(Closure), Array)
+#2 /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/Application.php(87): WPEmerge\Application\Application->loadServiceProviders(Object(Pimple\Container))
+#3 /app/wp-content/themes/teste/functions.php(52): WPEmerge\Application\Application->bootstrap(Array)
+#4 /app/wp-settings.php(585): include('/app/wp-content...')
+#5 /app/wp-config.php(100): require_once('/app/wp-setting...')
+#6 /app/wp-load.php(50): require_onc in /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php on line 67
+[11-Nov-2022 00:03:45 UTC] PHP Fatal error:  Uncaught WPEmerge\Exceptions\ConfigurationException: The following class is not defined or does not implement WPEmerge\ServiceProviders\ServiceProviderInterface: Suno\Routing\RouteConditionsServiceProvider in /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php:67
+Stack trace:
+#0 [internal function]: WPEmerge\Application\Application->WPEmerge\Application\{closure}('Suno\\Routing\\Ro...')
+#1 /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php(79): array_map(Object(Closure), Array)
+#2 /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/Application.php(87): WPEmerge\Application\Application->loadServiceProviders(Object(Pimple\Container))
+#3 /app/wp-content/themes/teste/functions.php(52): WPEmerge\Application\Application->bootstrap(Array)
+#4 /app/wp-settings.php(585): include('/app/wp-content...')
+#5 /app/wp-config.php(100): require_once('/app/wp-setting...')
+#6 /app/wp-load.php(50): require_onc in /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php on line 67
+[11-Nov-2022 00:03:51 UTC] PHP Fatal error:  Uncaught WPEmerge\Exceptions\ConfigurationException: The following class is not defined or does not implement WPEmerge\ServiceProviders\ServiceProviderInterface: Suno\Routing\RouteConditionsServiceProvider in /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php:67
+Stack trace:
+#0 [internal function]: WPEmerge\Application\Application->WPEmerge\Application\{closure}('Suno\\Routing\\Ro...')
+#1 /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php(79): array_map(Object(Closure), Array)
+#2 /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/Application.php(87): WPEmerge\Application\Application->loadServiceProviders(Object(Pimple\Container))
+#3 /app/wp-content/themes/teste/functions.php(52): WPEmerge\Application\Application->bootstrap(Array)
+#4 /app/wp-settings.php(585): include('/app/wp-content...')
+#5 /app/wp-config.php(100): require_once('/app/wp-setting...')
+#6 /app/wp-load.php(50): require_onc in /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php on line 67
+[11-Nov-2022 00:03:53 UTC] PHP Fatal error:  Uncaught WPEmerge\Exceptions\ConfigurationException: The following class is not defined or does not implement WPEmerge\ServiceProviders\ServiceProviderInterface: Suno\Routing\RouteConditionsServiceProvider in /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php:67
+Stack trace:
+#0 [internal function]: WPEmerge\Application\Application->WPEmerge\Application\{closure}('Suno\\Routing\\Ro...')
+#1 /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php(79): array_map(Object(Closure), Array)
+#2 /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/Application.php(87): WPEmerge\Application\Application->loadServiceProviders(Object(Pimple\Container))
+#3 /app/wp-content/themes/teste/functions.php(52): WPEmerge\Application\Application->bootstrap(Array)
+#4 /app/wp-settings.php(585): include('/app/wp-content...')
+#5 /app/wp-config.php(100): require_once('/app/wp-setting...')
+#6 /app/wp-load.php(50): require_onc in /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php on line 67
+[11-Nov-2022 00:03:59 UTC] PHP Fatal error:  Uncaught WPEmerge\Exceptions\ConfigurationException: The following class is not defined or does not implement WPEmerge\ServiceProviders\ServiceProviderInterface: Suno\Routing\RouteConditionsServiceProvider in /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php:67
+Stack trace:
+#0 [internal function]: WPEmerge\Application\Application->WPEmerge\Application\{closure}('Suno\\Routing\\Ro...')
+#1 /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php(79): array_map(Object(Closure), Array)
+#2 /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/Application.php(87): WPEmerge\Application\Application->loadServiceProviders(Object(Pimple\Container))
+#3 /app/wp-content/themes/teste/functions.php(52): WPEmerge\Application\Application->bootstrap(Array)
+#4 /app/wp-settings.php(585): include('/app/wp-content...')
+#5 /app/wp-config.php(100): require_once('/app/wp-setting...')
+#6 /app/wp-load.php(50): require_onc in /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php on line 67
+[11-Nov-2022 00:06:32 UTC] PHP Fatal error:  Uncaught WPEmerge\Exceptions\ConfigurationException: The following class is not defined or does not implement WPEmerge\ServiceProviders\ServiceProviderInterface: Suno\Routing\RouteConditionsServiceProvider in /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php:67
+Stack trace:
+#0 [internal function]: WPEmerge\Application\Application->WPEmerge\Application\{closure}('Suno\\Routing\\Ro...')
+#1 /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php(79): array_map(Object(Closure), Array)
+#2 /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/Application.php(87): WPEmerge\Application\Application->loadServiceProviders(Object(Pimple\Container))
+#3 /app/wp-content/themes/teste/functions.php(52): WPEmerge\Application\Application->bootstrap(Array)
+#4 /app/wp-settings.php(585): include('/app/wp-content...')
+#5 /app/wp-config.php(100): require_once('/app/wp-setting...')
+#6 /app/wp-load.php(50): require_onc in /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php on line 67
+[11-Nov-2022 00:06:54 UTC] PHP Fatal error:  Uncaught WPEmerge\Exceptions\ConfigurationException: The following class is not defined or does not implement WPEmerge\ServiceProviders\ServiceProviderInterface: Suno\Routing\RouteConditionsServiceProvider in /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php:67
+Stack trace:
+#0 [internal function]: WPEmerge\Application\Application->WPEmerge\Application\{closure}('Suno\\Routing\\Ro...')
+#1 /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php(79): array_map(Object(Closure), Array)
+#2 /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/Application.php(87): WPEmerge\Application\Application->loadServiceProviders(Object(Pimple\Container))
+#3 /app/wp-content/themes/teste/functions.php(52): WPEmerge\Application\Application->bootstrap(Array)
+#4 /app/wp-settings.php(585): include('/app/wp-content...')
+#5 /app/wp-config.php(100): require_once('/app/wp-setting...')
+#6 /app/wp-load.php(50): require_onc in /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php on line 67
+[11-Nov-2022 00:06:56 UTC] PHP Fatal error:  Uncaught WPEmerge\Exceptions\ConfigurationException: The following class is not defined or does not implement WPEmerge\ServiceProviders\ServiceProviderInterface: Suno\Routing\RouteConditionsServiceProvider in /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php:67
+Stack trace:
+#0 [internal function]: WPEmerge\Application\Application->WPEmerge\Application\{closure}('Suno\\Routing\\Ro...')
+#1 /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php(79): array_map(Object(Closure), Array)
+#2 /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/Application.php(87): WPEmerge\Application\Application->loadServiceProviders(Object(Pimple\Container))
+#3 /app/wp-content/themes/teste/functions.php(52): WPEmerge\Application\Application->bootstrap(Array)
+#4 /app/wp-settings.php(585): include('/app/wp-content...')
+#5 /app/wp-config.php(100): require_once('/app/wp-setting...')
+#6 /app/wp-load.php(50): require_onc in /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php on line 67
+[11-Nov-2022 00:06:59 UTC] PHP Fatal error:  Uncaught WPEmerge\Exceptions\ConfigurationException: The following class is not defined or does not implement WPEmerge\ServiceProviders\ServiceProviderInterface: Suno\Routing\RouteConditionsServiceProvider in /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php:67
+Stack trace:
+#0 [internal function]: WPEmerge\Application\Application->WPEmerge\Application\{closure}('Suno\\Routing\\Ro...')
+#1 /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php(79): array_map(Object(Closure), Array)
+#2 /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/Application.php(87): WPEmerge\Application\Application->loadServiceProviders(Object(Pimple\Container))
+#3 /app/wp-content/themes/teste/functions.php(52): WPEmerge\Application\Application->bootstrap(Array)
+#4 /app/wp-settings.php(585): include('/app/wp-content...')
+#5 /app/wp-config.php(100): require_once('/app/wp-setting...')
+#6 /app/wp-load.php(50): require_onc in /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php on line 67
+[11-Nov-2022 00:07:02 UTC] PHP Fatal error:  Uncaught WPEmerge\Exceptions\ConfigurationException: The following class is not defined or does not implement WPEmerge\ServiceProviders\ServiceProviderInterface: Suno\Routing\RouteConditionsServiceProvider in /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php:67
+Stack trace:
+#0 [internal function]: WPEmerge\Application\Application->WPEmerge\Application\{closure}('Suno\\Routing\\Ro...')
+#1 /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php(79): array_map(Object(Closure), Array)
+#2 /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/Application.php(87): WPEmerge\Application\Application->loadServiceProviders(Object(Pimple\Container))
+#3 /app/wp-content/themes/teste/functions.php(52): WPEmerge\Application\Application->bootstrap(Array)
+#4 /app/wp-settings.php(585): include('/app/wp-content...')
+#5 /app/wp-config.php(100): require_once('/app/wp-setting...')
+#6 /app/wp-load.php(50): require_onc in /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php on line 67
+[11-Nov-2022 00:08:13 UTC] PHP Fatal error:  Uncaught WPEmerge\Exceptions\ConfigurationException: The following class is not defined or does not implement WPEmerge\ServiceProviders\ServiceProviderInterface: Suno\Routing\RouteConditionsServiceProvider in /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php:67
+Stack trace:
+#0 [internal function]: WPEmerge\Application\Application->WPEmerge\Application\{closure}('Suno\\Routing\\Ro...')
+#1 /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php(79): array_map(Object(Closure), Array)
+#2 /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/Application.php(87): WPEmerge\Application\Application->loadServiceProviders(Object(Pimple\Container))
+#3 /app/wp-content/themes/teste/functions.php(52): WPEmerge\Application\Application->bootstrap(Array)
+#4 /app/wp-settings.php(585): include('/app/wp-content...')
+#5 /app/wp-config.php(100): require_once('/app/wp-setting...')
+#6 /app/wp-load.php(50): require_onc in /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php on line 67
+[11-Nov-2022 00:08:49 UTC] PHP Fatal error:  Uncaught WPEmerge\Exceptions\ConfigurationException: The following class is not defined or does not implement WPEmerge\ServiceProviders\ServiceProviderInterface: Suno\Routing\RouteConditionsServiceProvider in /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php:67
+Stack trace:
+#0 [internal function]: WPEmerge\Application\Application->WPEmerge\Application\{closure}('Suno\\Routing\\Ro...')
+#1 /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php(79): array_map(Object(Closure), Array)
+#2 /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/Application.php(87): WPEmerge\Application\Application->loadServiceProviders(Object(Pimple\Container))
+#3 /app/wp-content/themes/teste/functions.php(52): WPEmerge\Application\Application->bootstrap(Array)
+#4 /app/wp-settings.php(585): include('/app/wp-content...')
+#5 /app/wp-config.php(100): require_once('/app/wp-setting...')
+#6 /app/wp-load.php(50): require_onc in /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php on line 67
+[11-Nov-2022 00:11:54 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /app/wp-includes/class-wpdb.php on line 1775
+[11-Nov-2022 00:11:54 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /app/wp-includes/class-wpdb.php on line 1775
+[11-Nov-2022 00:11:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_cache_get() in /app/wp-includes/option.php:165
+Stack trace:
+#0 /app/wp-includes/l10n.php(63): get_option('WPLANG')
+#1 /app/wp-includes/l10n.php(139): get_locale()
+#2 /app/wp-includes/l10n.php(766): determine_locale()
+#3 /app/wp-includes/load.php(1395): load_textdomain('default', '/app/wp-content...')
+#4 /app/wp-includes/class-wpdb.php(1815): wp_load_translations_early()
+#5 /app/wp-includes/class-wpdb.php(734): wpdb->db_connect()
+#6 /app/wp-includes/load.php(562): wpdb->__construct('wordpress', 'wordpress', 'wordpress', 'database')
+#7 /app/wp-settings.php(124): require_wp_db()
+#8 /app/wp-config.php(100): require_once('/app/wp-setting...')
+#9 /app/wp-load.php(50): require_once('/app/wp-config....')
+#10 /app/wp-blog-header.php(13): require_once('/app/wp-load.ph...')
+#11 /app/index.php(17): require('/app/wp-blog-he...')
+#12 {main}
+  thrown in /app/wp-includes/option.php on line 165
+[11-Nov-2022 00:11:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_cache_get() in /app/wp-includes/option.php:165
+Stack trace:
+#0 /app/wp-includes/l10n.php(63): get_option('WPLANG')
+#1 /app/wp-includes/l10n.php(139): get_locale()
+#2 /app/wp-includes/l10n.php(766): determine_locale()
+#3 /app/wp-includes/load.php(1395): load_textdomain('default', '/app/wp-content...')
+#4 /app/wp-includes/class-wpdb.php(1815): wp_load_translations_early()
+#5 /app/wp-includes/class-wpdb.php(734): wpdb->db_connect()
+#6 /app/wp-includes/load.php(562): wpdb->__construct('wordpress', 'wordpress', 'wordpress', 'database')
+#7 /app/wp-settings.php(124): require_wp_db()
+#8 /app/wp-config.php(100): require_once('/app/wp-setting...')
+#9 /app/wp-load.php(50): require_once('/app/wp-config....')
+#10 /app/wp-blog-header.php(13): require_once('/app/wp-load.ph...')
+#11 /app/index.php(17): require('/app/wp-blog-he...')
+#12 {main}
+  thrown in /app/wp-includes/option.php on line 165
+[11-Nov-2022 00:11:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function set() on null in /app/wp-includes/l10n.php:784
+Stack trace:
+#0 /app/wp-includes/l10n.php(872): load_textdomain('default', '/app/wp-content...', 'pt_BR')
+#1 /app/wp-includes/class-wp-fatal-error-handler.php(47): load_default_textdomain()
+#2 [internal function]: WP_Fatal_Error_Handler->handle()
+#3 {main}
+  thrown in /app/wp-includes/l10n.php on line 784
+[11-Nov-2022 00:11:54 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /app/wp-includes/class-wpdb.php on line 1775
+[11-Nov-2022 00:11:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function set() on null in /app/wp-includes/l10n.php:784
+Stack trace:
+#0 /app/wp-includes/l10n.php(872): load_textdomain('default', '/app/wp-content...', 'pt_BR')
+#1 /app/wp-includes/class-wp-fatal-error-handler.php(47): load_default_textdomain()
+#2 [internal function]: WP_Fatal_Error_Handler->handle()
+#3 {main}
+  thrown in /app/wp-includes/l10n.php on line 784
+[11-Nov-2022 00:11:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_cache_get() in /app/wp-includes/option.php:165
+Stack trace:
+#0 /app/wp-includes/l10n.php(63): get_option('WPLANG')
+#1 /app/wp-includes/l10n.php(139): get_locale()
+#2 /app/wp-includes/l10n.php(766): determine_locale()
+#3 /app/wp-includes/load.php(1395): load_textdomain('default', '/app/wp-content...')
+#4 /app/wp-includes/class-wpdb.php(1815): wp_load_translations_early()
+#5 /app/wp-includes/class-wpdb.php(734): wpdb->db_connect()
+#6 /app/wp-includes/load.php(562): wpdb->__construct('wordpress', 'wordpress', 'wordpress', 'database')
+#7 /app/wp-settings.php(124): require_wp_db()
+#8 /app/wp-config.php(100): require_once('/app/wp-setting...')
+#9 /app/wp-load.php(50): require_once('/app/wp-config....')
+#10 /app/wp-blog-header.php(13): require_once('/app/wp-load.ph...')
+#11 /app/index.php(17): require('/app/wp-blog-he...')
+#12 {main}
+  thrown in /app/wp-includes/option.php on line 165
+[11-Nov-2022 00:11:54 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /app/wp-includes/class-wpdb.php on line 1775
+[11-Nov-2022 00:11:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_cache_get() in /app/wp-includes/option.php:165
+Stack trace:
+#0 /app/wp-includes/l10n.php(63): get_option('WPLANG')
+#1 /app/wp-includes/l10n.php(139): get_locale()
+#2 /app/wp-includes/l10n.php(766): determine_locale()
+#3 /app/wp-includes/load.php(1395): load_textdomain('default', '/app/wp-content...')
+#4 /app/wp-includes/class-wpdb.php(1815): wp_load_translations_early()
+#5 /app/wp-includes/class-wpdb.php(734): wpdb->db_connect()
+#6 /app/wp-includes/load.php(562): wpdb->__construct('wordpress', 'wordpress', 'wordpress', 'database')
+#7 /app/wp-settings.php(124): require_wp_db()
+#8 /app/wp-config.php(100): require_once('/app/wp-setting...')
+#9 /app/wp-load.php(50): require_once('/app/wp-config....')
+#10 /app/wp-blog-header.php(13): require_once('/app/wp-load.ph...')
+#11 /app/index.php(17): require('/app/wp-blog-he...')
+#12 {main}
+  thrown in /app/wp-includes/option.php on line 165
+[11-Nov-2022 00:11:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function set() on null in /app/wp-includes/l10n.php:784
+Stack trace:
+#0 /app/wp-includes/l10n.php(872): load_textdomain('default', '/app/wp-content...', 'pt_BR')
+#1 /app/wp-includes/class-wp-fatal-error-handler.php(47): load_default_textdomain()
+#2 [internal function]: WP_Fatal_Error_Handler->handle()
+#3 {main}
+  thrown in /app/wp-includes/l10n.php on line 784
+[11-Nov-2022 00:11:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function set() on null in /app/wp-includes/l10n.php:784
+Stack trace:
+#0 /app/wp-includes/l10n.php(872): load_textdomain('default', '/app/wp-content...', 'pt_BR')
+#1 /app/wp-includes/class-wp-fatal-error-handler.php(47): load_default_textdomain()
+#2 [internal function]: WP_Fatal_Error_Handler->handle()
+#3 {main}
+  thrown in /app/wp-includes/l10n.php on line 784
+[11-Nov-2022 00:12:15 UTC] PHP Fatal error:  Uncaught WPEmerge\Exceptions\ConfigurationException: The following class is not defined or does not implement WPEmerge\ServiceProviders\ServiceProviderInterface: Suno\Routing\RouteConditionsServiceProvider in /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php:67
+Stack trace:
+#0 [internal function]: WPEmerge\Application\Application->WPEmerge\Application\{closure}('Suno\\Routing\\Ro...')
+#1 /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php(79): array_map(Object(Closure), Array)
+#2 /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/Application.php(87): WPEmerge\Application\Application->loadServiceProviders(Object(Pimple\Container))
+#3 /app/wp-content/themes/teste/functions.php(52): WPEmerge\Application\Application->bootstrap(Array)
+#4 /app/wp-settings.php(585): include('/app/wp-content...')
+#5 /app/wp-config.php(100): require_once('/app/wp-setting...')
+#6 /app/wp-load.php(50): require_onc in /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php on line 67
+[11-Nov-2022 00:13:58 UTC] PHP Fatal error:  Uncaught WPEmerge\Exceptions\ConfigurationException: The following class is not defined or does not implement WPEmerge\ServiceProviders\ServiceProviderInterface: Suno\Routing\RouteConditionsServiceProvider in /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php:67
+Stack trace:
+#0 [internal function]: WPEmerge\Application\Application->WPEmerge\Application\{closure}('Suno\\Routing\\Ro...')
+#1 /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php(79): array_map(Object(Closure), Array)
+#2 /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/Application.php(87): WPEmerge\Application\Application->loadServiceProviders(Object(Pimple\Container))
+#3 /app/wp-content/themes/teste/functions.php(52): WPEmerge\Application\Application->bootstrap(Array)
+#4 /app/wp-settings.php(585): include('/app/wp-content...')
+#5 /app/wp-config.php(100): require_once('/app/wp-setting...')
+#6 /app/wp-load.php(50): require_onc in /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php on line 67
+[11-Nov-2022 00:18:03 UTC] PHP Fatal error:  Uncaught WPEmerge\Exceptions\ConfigurationException: The following class is not defined or does not implement WPEmerge\ServiceProviders\ServiceProviderInterface: Suno\Routing\RouteConditionsServiceProvider in /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php:67
+Stack trace:
+#0 [internal function]: WPEmerge\Application\Application->WPEmerge\Application\{closure}('Suno\\Routing\\Ro...')
+#1 /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php(79): array_map(Object(Closure), Array)
+#2 /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/Application.php(87): WPEmerge\Application\Application->loadServiceProviders(Object(Pimple\Container))
+#3 /app/wp-content/themes/teste/functions.php(52): WPEmerge\Application\Application->bootstrap(Array)
+#4 /app/wp-settings.php(585): include('/app/wp-content...')
+#5 /app/wp-config.php(100): require_once('/app/wp-setting...')
+#6 /app/wp-load.php(50): require_onc in /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php on line 67
+[11-Nov-2022 00:18:35 UTC] PHP Fatal error:  Uncaught WPEmerge\Exceptions\ConfigurationException: The following class is not defined or does not implement WPEmerge\ServiceProviders\ServiceProviderInterface: Suno\Routing\RouteConditionsServiceProvider in /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php:67
+Stack trace:
+#0 [internal function]: WPEmerge\Application\Application->WPEmerge\Application\{closure}('Suno\\Routing\\Ro...')
+#1 /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php(79): array_map(Object(Closure), Array)
+#2 /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/Application.php(87): WPEmerge\Application\Application->loadServiceProviders(Object(Pimple\Container))
+#3 /app/wp-content/themes/teste/functions.php(52): WPEmerge\Application\Application->bootstrap(Array)
+#4 /app/wp-settings.php(585): include('/app/wp-content...')
+#5 /app/wp-config.php(100): require_once('/app/wp-setting...')
+#6 /app/wp-load.php(50): require_onc in /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php on line 67
+[11-Nov-2022 00:18:37 UTC] PHP Fatal error:  Uncaught WPEmerge\Exceptions\ConfigurationException: The following class is not defined or does not implement WPEmerge\ServiceProviders\ServiceProviderInterface: Suno\Routing\RouteConditionsServiceProvider in /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php:67
+Stack trace:
+#0 [internal function]: WPEmerge\Application\Application->WPEmerge\Application\{closure}('Suno\\Routing\\Ro...')
+#1 /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php(79): array_map(Object(Closure), Array)
+#2 /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/Application.php(87): WPEmerge\Application\Application->loadServiceProviders(Object(Pimple\Container))
+#3 /app/wp-content/themes/teste/functions.php(52): WPEmerge\Application\Application->bootstrap(Array)
+#4 /app/wp-settings.php(585): include('/app/wp-content...')
+#5 /app/wp-config.php(100): require_once('/app/wp-setting...')
+#6 /app/wp-load.php(50): require_onc in /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php on line 67
+[11-Nov-2022 00:19:22 UTC] PHP Fatal error:  Uncaught WPEmerge\Exceptions\ConfigurationException: The following class is not defined or does not implement WPEmerge\ServiceProviders\ServiceProviderInterface: Suno\Routing\RouteConditionsServiceProvider in /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php:67
+Stack trace:
+#0 [internal function]: WPEmerge\Application\Application->WPEmerge\Application\{closure}('Suno\\Routing\\Ro...')
+#1 /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php(79): array_map(Object(Closure), Array)
+#2 /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/Application.php(87): WPEmerge\Application\Application->loadServiceProviders(Object(Pimple\Container))
+#3 /app/wp-content/themes/teste/functions.php(52): WPEmerge\Application\Application->bootstrap(Array)
+#4 /app/wp-settings.php(585): include('/app/wp-content...')
+#5 /app/wp-config.php(100): require_once('/app/wp-setting...')
+#6 /app/wp-load.php(50): require_onc in /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php on line 67
+[11-Nov-2022 00:20:03 UTC] PHP Fatal error:  Uncaught WPEmerge\Exceptions\ConfigurationException: The following class is not defined or does not implement WPEmerge\ServiceProviders\ServiceProviderInterface: Suno\Routing\RouteConditionsServiceProvider in /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php:67
+Stack trace:
+#0 [internal function]: WPEmerge\Application\Application->WPEmerge\Application\{closure}('Suno\\Routing\\Ro...')
+#1 /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php(79): array_map(Object(Closure), Array)
+#2 /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/Application.php(87): WPEmerge\Application\Application->loadServiceProviders(Object(Pimple\Container))
+#3 /app/wp-content/themes/teste/functions.php(52): WPEmerge\Application\Application->bootstrap(Array)
+#4 /app/wp-settings.php(585): include('/app/wp-content...')
+#5 /app/wp-config.php(100): require_once('/app/wp-setting...')
+#6 /app/wp-load.php(50): require_onc in /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php on line 67
+[11-Nov-2022 00:20:06 UTC] PHP Fatal error:  Uncaught WPEmerge\Exceptions\ConfigurationException: The following class is not defined or does not implement WPEmerge\ServiceProviders\ServiceProviderInterface: Suno\Routing\RouteConditionsServiceProvider in /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php:67
+Stack trace:
+#0 [internal function]: WPEmerge\Application\Application->WPEmerge\Application\{closure}('Suno\\Routing\\Ro...')
+#1 /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php(79): array_map(Object(Closure), Array)
+#2 /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/Application.php(87): WPEmerge\Application\Application->loadServiceProviders(Object(Pimple\Container))
+#3 /app/wp-content/themes/teste/functions.php(52): WPEmerge\Application\Application->bootstrap(Array)
+#4 /app/wp-settings.php(585): include('/app/wp-content...')
+#5 /app/wp-config.php(100): require_once('/app/wp-setting...')
+#6 /app/wp-load.php(50): require_onc in /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php on line 67
+[11-Nov-2022 00:22:32 UTC] PHP Fatal error:  Uncaught WPEmerge\Exceptions\ConfigurationException: The following class is not defined or does not implement WPEmerge\ServiceProviders\ServiceProviderInterface: Suno\Routing\RouteConditionsServiceProvider in /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php:67
+Stack trace:
+#0 [internal function]: WPEmerge\Application\Application->WPEmerge\Application\{closure}('Suno\\Routing\\Ro...')
+#1 /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php(79): array_map(Object(Closure), Array)
+#2 /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/Application.php(87): WPEmerge\Application\Application->loadServiceProviders(Object(Pimple\Container))
+#3 /app/wp-content/themes/teste/functions.php(52): WPEmerge\Application\Application->bootstrap(Array)
+#4 /app/wp-settings.php(585): include('/app/wp-content...')
+#5 /app/wp-config.php(100): require_once('/app/wp-setting...')
+#6 /app/wp-load.php(50): require_onc in /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php on line 67
+[11-Nov-2022 00:24:52 UTC] PHP Fatal error:  Uncaught WPEmerge\Exceptions\ConfigurationException: The following class is not defined or does not implement WPEmerge\ServiceProviders\ServiceProviderInterface: Suno\Routing\RouteConditionsServiceProvider in /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php:67
+Stack trace:
+#0 [internal function]: WPEmerge\Application\Application->WPEmerge\Application\{closure}('Suno\\Routing\\Ro...')
+#1 /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php(79): array_map(Object(Closure), Array)
+#2 /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/Application.php(87): WPEmerge\Application\Application->loadServiceProviders(Object(Pimple\Container))
+#3 /app/wp-content/themes/teste/functions.php(52): WPEmerge\Application\Application->bootstrap(Array)
+#4 /app/wp-settings.php(585): include('/app/wp-content...')
+#5 /app/wp-config.php(100): require_once('/app/wp-setting...')
+#6 /app/wp-load.php(50): require_onc in /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php on line 67
+[11-Nov-2022 00:24:54 UTC] PHP Fatal error:  Uncaught WPEmerge\Exceptions\ConfigurationException: The following class is not defined or does not implement WPEmerge\ServiceProviders\ServiceProviderInterface: Suno\Routing\RouteConditionsServiceProvider in /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php:67
+Stack trace:
+#0 [internal function]: WPEmerge\Application\Application->WPEmerge\Application\{closure}('Suno\\Routing\\Ro...')
+#1 /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php(79): array_map(Object(Closure), Array)
+#2 /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/Application.php(87): WPEmerge\Application\Application->loadServiceProviders(Object(Pimple\Container))
+#3 /app/wp-content/themes/teste/functions.php(52): WPEmerge\Application\Application->bootstrap(Array)
+#4 /app/wp-settings.php(585): include('/app/wp-content...')
+#5 /app/wp-config.php(100): require_once('/app/wp-setting...')
+#6 /app/wp-load.php(50): require_onc in /app/wp-content/themes/teste/vendor/htmlburger/wpemerge/src/Application/LoadsServiceProvidersTrait.php on line 67
+[11-Nov-2022 00:25:26 UTC] PHP Fatal error:  Uncaught Error: Class 'MyApp' not found in /app/wp-content/themes/teste/functions.php:52
+Stack trace:
+#0 /app/wp-settings.php(585): include()
+#1 /app/wp-config.php(100): require_once('/app/wp-setting...')
+#2 /app/wp-load.php(50): require_once('/app/wp-config....')
+#3 /app/wp-admin/admin.php(34): require_once('/app/wp-load.ph...')
+#4 /app/wp-admin/edit-comments.php(10): require_once('/app/wp-admin/a...')
+#5 {main}
+  thrown in /app/wp-content/themes/teste/functions.php on line 52
+[11-Nov-2022 00:25:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function myapp_should_load_wpemerge() in /app/wp-content/themes/teste/functions.php:31
+Stack trace:
+#0 /app/wp-settings.php(585): include()
+#1 /app/wp-config.php(100): require_once('/app/wp-setting...')
+#2 /app/wp-load.php(50): require_once('/app/wp-config....')
+#3 /app/wp-admin/admin.php(34): require_once('/app/wp-load.ph...')
+#4 /app/wp-admin/edit-comments.php(10): require_once('/app/wp-admin/a...')
+#5 {main}
+  thrown in /app/wp-content/themes/teste/functions.php on line 31
+[11-Nov-2022 00:25:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function myapp_should_load_wpemerge() in /app/wp-content/themes/teste/functions.php:31
+Stack trace:
+#0 /app/wp-settings.php(585): include()
+#1 /app/wp-config.php(100): require_once('/app/wp-setting...')
+#2 /app/wp-load.php(50): require_once('/app/wp-config....')
+#3 /app/wp-blog-header.php(13): require_once('/app/wp-load.ph...')
+#4 /app/index.php(17): require('/app/wp-blog-he...')
+#5 {main}
+  thrown in /app/wp-content/themes/teste/functions.php on line 31
+[11-Nov-2022 00:29:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function myapp_should_load_wpemerge() in /app/wp-content/themes/teste/functions.php:31
+Stack trace:
+#0 /app/wp-settings.php(585): include()
+#1 /app/wp-config.php(100): require_once('/app/wp-setting...')
+#2 /app/wp-load.php(50): require_once('/app/wp-config....')
+#3 /app/wp-blog-header.php(13): require_once('/app/wp-load.ph...')
+#4 /app/index.php(17): require('/app/wp-blog-he...')
+#5 {main}
+  thrown in /app/wp-content/themes/teste/functions.php on line 31
+[11-Nov-2022 00:30:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function myapp_should_load_wpemerge() in /app/wp-content/themes/teste/functions.php:31
+Stack trace:
+#0 /app/wp-settings.php(585): include()
+#1 /app/wp-config.php(100): require_once('/app/wp-setting...')
+#2 /app/wp-load.php(50): require_once('/app/wp-config....')
+#3 /app/wp-admin/admin.php(34): require_once('/app/wp-load.ph...')
+#4 /app/wp-admin/edit-comments.php(10): require_once('/app/wp-admin/a...')
+#5 {main}
+  thrown in /app/wp-content/themes/teste/functions.php on line 31
+[11-Nov-2022 00:30:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function myapp_should_load_wpemerge() in /app/wp-content/themes/teste/functions.php:31
+Stack trace:
+#0 /app/wp-settings.php(585): include()
+#1 /app/wp-config.php(100): require_once('/app/wp-setting...')
+#2 /app/wp-load.php(50): require_once('/app/wp-config....')
+#3 /app/wp-admin/admin.php(34): require_once('/app/wp-load.ph...')
+#4 /app/wp-admin/index.php(10): require_once('/app/wp-admin/a...')
+#5 {main}
+  thrown in /app/wp-content/themes/teste/functions.php on line 31
+[13-Nov-2022 19:35:58 UTC] PHP Warning:  Unterminated comment starting line 116 in /app/wp-content/themes/suno/header.php on line 116

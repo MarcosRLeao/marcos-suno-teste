@@ -1,0 +1,19 @@
+.mySwiper--sunoDarkBox {
+  overflow: hidden;
+  margin-top: -11px;
+  margin-right: unset;
+  margin-left: unset;
+  .swiper-pagination--sunoDarkBox {
+    bottom: 0;
+    padding: 20px 0 28px 0;
+
+    .swiper-pagination-bullet {
+      width: 12px;
+      height: 12px;
+      background-color: #3b3b3b;
+    }
+    .swiper-pagination-bullet-active {
+      background-color: $suno-red;
+    }
+  }
+}

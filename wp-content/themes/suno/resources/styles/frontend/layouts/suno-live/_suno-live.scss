@@ -1,0 +1,78 @@
+$component-name: "sunoLive";
+.#{$component-name} {
+  display: flex;
+  align-items: center;
+  height: 48px;
+  border-radius: 5px;
+  color: $white;
+  overflow: hidden;
+  margin-bottom: 32px;
+
+  @media screen and (max-width: 1220px) {
+    display: none;
+  }
+
+  &__tag {
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 150px;
+    border-radius: 5px;
+    background-color: $suno-red;
+
+    &__triangle {
+      position: absolute;
+      right: 0;
+      width: 150px;
+      height: 150px;
+      transform: rotate(45deg);
+      border-radius: 5px;
+      background: $suno-red;
+    }
+
+    &__live {
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 14px;
+      font-weight: 600;
+      font-weight: 900;
+      text-align: center;
+      text-transform: uppercase;
+      margin-left: 16px;
+
+      img {
+        margin-right: 8px;
+      }
+    }
+  }
+
+  &__title {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    height: 46px;
+    border: 1px solid $grey-light;
+    border-radius: 0 5px 5px 0;
+    background: $black;
+
+    p,
+    a {
+      padding-left: 52px;
+      box-sizing: border-box;
+      color: $white;
+      font-size: 16px;
+      font-weight: 500;
+      text-decoration: none;
+      @include clamp(1);
+    }
+
+    a {
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

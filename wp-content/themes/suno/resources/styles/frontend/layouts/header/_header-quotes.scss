@@ -1,0 +1,97 @@
+.headerQuotes100 {
+  width: 100%;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+$component-name: "headerQuotes";
+.#{$component-name} {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 28px;
+  width: 1180px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  margin-bottom: 32px;
+  user-select: none;
+
+  @media screen and (max-width: 1220px) {
+    overflow-x: scroll;
+  }
+
+  @include scrollbar;
+
+  img {
+    margin: 0;
+  }
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 44px;
+    font-size: 10px;
+
+    &:last-of-type {
+      .#{$component-name}__item__status {
+        &--up,
+        &--down {
+          &::before {
+            display: none;
+          }
+        }
+      }
+    }
+
+    &__title {
+      font-weight: 600;
+      margin-right: 8px;
+    }
+
+    &__status {
+      position: relative;
+      font-weight: 600;
+      margin-left: 8px;
+
+      &--up,
+      &--down {
+        &::before {
+          content: "";
+          height: 12px;
+          width: 1px;
+          background-color: $grey-light;
+          position: absolute;
+          display: block;
+          right: -44px;
+
+          @media screen and (max-width: 1220px) {
+            right: -31px;
+          }
+        }
+
+        &::after {
+          position: absolute;
+          top: 0px;
+          margin-left: 4px;
+        }
+      }
+
+      &--up {
+        color: $green-up;
+        &::after {
+          content: url(~@images/header/icon-up.svg);
+        }
+      }
+      &--down {
+        color: $red-down;
+        &::after {
+          content: url(~@images/header/icon-down.svg);
+        }
+      }
+    }
+  }
+}
+
+// TODO: https://pt.stackoverflow.com/questions/11862/como-fazer-um-marquee-sem-a-tag-marquee

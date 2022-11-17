@@ -1,0 +1,49 @@
+@mixin header-bts {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding: 0 32px;
+  box-sizing: border-box;
+  border-radius: 25px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+@mixin clamp($lineToResume: 3) {
+  display: block;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-line-clamp: $lineToResume;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+}
+
+@mixin scrollbar {
+  box-sizing: border-box;
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
+
+  ::-webkit-scrollbar-track,
+  ::-webkit-scrollbar-thumb,
+  ::-webkit-scrollbar-thumb:hover {
+    background: transparent;
+  }
+}
+
+@mixin mask($firstColor, $secondColor, $height) {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: $height;
+  background: linear-gradient(0deg, $firstColor 0%, $secondColor 100%);
+}
+
+// @mixin teste {
+//   box-sizing: border-box;
+//   border: 1px solid #f00;
+// }

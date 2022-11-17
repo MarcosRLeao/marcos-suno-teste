@@ -1,0 +1,136 @@
+$component-name: "sunoNews";
+.#{$component-name} {
+  display: flex;
+  margin-bottom: 32px;
+  gap: 20px;
+
+  @media screen and (max-width: 1220px) {
+    flex-direction: column;
+  }
+
+  &__container {
+    flex: 1;
+  }
+
+  &__news {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+
+    @media screen and (max-width: 1220px) {
+      flex-direction: column;
+    }
+
+    picture {
+      display: flex;
+      position: relative;
+
+      @media screen and (max-width: 1220px) {
+        &::before {
+          content: "";
+          @include mask($black, transparent, 50%);
+          border-radius: 0 0 5px 5px;
+        }
+      }
+
+      img {
+        display: block;
+        width: 480px;
+        height: 260px;
+        object-fit: cover;
+        border-radius: 5px;
+
+        @media screen and (max-width: 1220px) {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+
+    &__emphasis {
+      flex: 1;
+      list-style: none;
+
+      @media screen and (max-width: 1220px) {
+        border-bottom: 1px solid $grey-light;
+      }
+
+      ul {
+        list-style: none;
+        li {
+          margin-bottom: 16px;
+
+          @media screen and (max-width: 1220px) {
+            display: none;
+          }
+
+          &:first-child {
+            @media screen and (max-width: 1220px) {
+              display: block;
+            }
+            .emphasis__title {
+              font-size: 28px;
+              font-weight: 700;
+              margin-left: 0;
+
+              @media screen and (max-width: 1220px) {
+                font-size: 20px;
+              }
+
+              &::before {
+                content: "";
+                background-color: transparent;
+              }
+            }
+          }
+
+          a {
+            position: relative;
+            color: $dark;
+            font-size: 16px;
+            font-weight: 500;
+            text-decoration: none;
+
+            @include clamp;
+
+            &:hover {
+              text-decoration: underline;
+            }
+
+            .emphasis__title {
+              font-size: 16px;
+              font-weight: 500;
+              margin-left: 16px;
+
+              //url(~@images/news/icon-elipese-red.svg)
+              &::before {
+                content: "";
+                position: absolute;
+                top: 10px;
+                left: 0;
+                width: 6px;
+                height: 6px;
+                border-radius: 100%;
+                background-color: $suno-red;
+                color: $suno-red;
+              }
+            }
+          }
+        }
+      }
+
+      .SunoNewsCategory {
+        &__title {
+          margin-bottom: 16px;
+
+          @media screen and (max-width: 1220px) {
+            margin-top: -44px;
+            margin-left: 12px;
+            margin-bottom: 27px;
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+}
