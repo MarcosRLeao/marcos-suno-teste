@@ -48,26 +48,10 @@ $component-name: "headerSunoNews";
       }
     }
   }
-
-  &__boxSearch {
-    position: absolute;
-    top: 88px;
-    right: 0;
-    left: 0;
-    display: none;
-    width: 100%;
-    height: calc(100vh + 100%);
-    background-color: rgba(0, 0, 0, 0.7);
-    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.7);
-    z-index: 1;
-    margin: auto;
-    clip-path: inset(0 -100vmax);
-  }
-
   &__boxEditorials,
   &__boxSearch {
     position: absolute;
-    top: 88px;
+    top: 89px;
     right: 0;
     left: 0;
     display: none;
@@ -75,13 +59,16 @@ $component-name: "headerSunoNews";
     height: calc(100vh + 100%);
     background-color: rgba(0, 0, 0, 0.7);
     box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.7);
-    z-index: 1;
     margin: auto;
     clip-path: inset(0 -100vmax);
   }
 
   &__boxEditorials {
     top: 60px;
+    z-index: 2;
+  }
+  &__boxSearch {
+    z-index: 1;
   }
 
   &__editorialsList {
@@ -94,18 +81,20 @@ $component-name: "headerSunoNews";
     list-style: none;
     z-index: 3;
     padding: 16px;
-    position: relative;
+    @media screen and (max-width: 1220px) {
+      position: absolute;
+      right: 0;
+    }
 
     li {
-
-      &:first-of-type{
-        a{
+      &:first-of-type {
+        a {
           padding-top: 0;
         }
       }
 
-      &:last-of-type{
-        a{
+      &:last-of-type {
+        a {
           padding-bottom: 0;
         }
       }
@@ -115,13 +104,16 @@ $component-name: "headerSunoNews";
         display: block;
         padding: 8px 0;
         box-sizing: border-box;
-
-        &:hover{
-          background-color: #a20005;
+        color: #000;
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: 0.8px;
+        text-transform: uppercase;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
         }
       }
-
-
     }
   }
 
@@ -132,7 +124,7 @@ $component-name: "headerSunoNews";
     align-items: center;
     height: auto;
     height: 60px;
-    padding: 0 8px;
+    padding: 0 5px;
     box-sizing: border-box;
     border-radius: 50px;
     background-color: $white;
@@ -141,18 +133,22 @@ $component-name: "headerSunoNews";
     gap: 8px;
 
     &__inputField {
-      width: 250px;
-      padding: 8px;
+      width: 450px;
+      padding: 12px 20px;
       border: none;
       outline: none;
       font-size: 20px;
-
-      @media (min-width: 1221px) {
-        width: 450px;
+      border-radius: 50px;
+      @media screen and (max-width: 1220px) {
+        width: 250px;
+        font-size: 16px;
       }
 
       &::placeholder {
         font-family: "Montserrat", sans-serif;
+        @media screen and (max-width: 1220px) {
+          font-size: 15px;
+        }
       }
     }
 
@@ -166,12 +162,12 @@ $component-name: "headerSunoNews";
       background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg fill='none' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='m9.4902 15.5v-0.79l0.27-0.28c1.176 1.0139 2.6773 1.5711 4.23 1.57 1.2856 0 2.5423-0.3812 3.6112-1.0954 1.069-0.7143 1.9021-1.7294 2.394-2.9172 0.492-1.1877 0.6207-2.4946 0.3699-3.7555-0.2508-1.2609-0.8698-2.4191-1.7789-3.3281-0.909-0.90904-2.0672-1.5281-3.3281-1.7789-1.2609-0.25081-2.5678-0.12208-3.7555 0.36989s-2.2029 1.3251-2.9171 2.394-1.0954 2.3256-1.0954 3.6112c0 1.61 0.59 3.09 1.57 4.23l-0.28 0.27h-0.79l-4.99 5 1.49 1.49 5-4.99zm0-6c0-2.49 2.01-4.5 4.5-4.5s4.5 2.01 4.5 4.5-2.01 4.5-4.5 4.5-4.5-2.01-4.5-4.5z' fill='%23fff'/%3E%3C/svg%3E");
       background-repeat: no-repeat;
       background-position: center center;
-      background-size: 40px;
-
-      @media (min-width: 1221px) {
+      background-size: 29px;
+      font-family: "Montserrat", sans-serif;
+      @media screen and (min-width: 1221px) {
         width: 150px;
         border-radius: 50px;
-        background-position: 5px center;
+        background-position: 13px center;
 
         &::after {
           content: "Buscar";

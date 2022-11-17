@@ -107,16 +107,15 @@
 
 			<div class="headerSunoNews__boxEditorials">
 				<ul class="headerSunoNews__editorialsList">
-					<li><a href="">item 1</a></li>
-					<li><a href="">item 2</a></li>
-					<li><a href="">item 3</a></li>
-					<li><a href="">item 4</a></li>
-					<li><a href="">item 5</a></li>
-					<li><a href="">item 6</a></li>
-					<li><a href="">item 7</a></li>
-					<li><a href="">item 8</a></li>
-					<li><a href="">item 9</a></li>
-					<li><a href="">item 10</a></li>
+					<li><a href="">Analítica</a></li>
+					<li><a href="">Artigos</a></li>
+					<li><a href="">Notícias</a></li>
+					<li><a href="">Conteúdo Gratuito</a></li>
+					<li><a href="">Cursos Online</a></li>
+					<li><a href="">Assinaturas</a></li>
+					<li><a href="">Colunistas</a></li>
+					<li><a href="">Glossário de Contabilidade</a></li>
+					<li><a href="">Hall da Fama</a></li>
 				</ul>
 			</div>
 			
