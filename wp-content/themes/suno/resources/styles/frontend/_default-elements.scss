@@ -66,19 +66,17 @@
     border-color: transparent;
     background-color: transparent;
     color: $white;
-    
+
     @media screen and (max-width: 1220px) {
       position: absolute;
-      right: 147px;
       top: 15px;
+      right: 147px;
       padding: 15px;
       background-color: #a20005;
       font-size: 0.01px;
       text-indent: -99999px;
       overflow: hidden;
     }
-
-    
 
     &::before {
       left: 10px;
@@ -131,15 +129,10 @@
   }
 }
 
-
-
-
-
-
 .SunoNewsCategory {
+  position: relative;
   color: $grey;
   text-decoration: none;
-  position: relative;
 
   &:hover {
     text-decoration: underline;

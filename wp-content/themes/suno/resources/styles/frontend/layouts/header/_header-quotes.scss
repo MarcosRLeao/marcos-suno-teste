@@ -8,13 +8,13 @@ $component-name: "headerQuotes";
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 28px;
   width: 1180px;
+  height: 28px;
   text-transform: uppercase;
   white-space: nowrap;
+  margin-bottom: 32px;
   overflow-y: hidden;
   overflow-x: hidden;
-  margin-bottom: 32px;
   user-select: none;
 
   @media screen and (max-width: 1220px) {
@@ -59,12 +59,12 @@ $component-name: "headerQuotes";
       &--down {
         &::before {
           content: "";
-          height: 12px;
-          width: 1px;
-          background-color: $grey-light;
           position: absolute;
-          display: block;
           right: -44px;
+          display: block;
+          width: 1px;
+          height: 12px;
+          background-color: $grey-light;
 
           @media screen and (max-width: 1220px) {
             right: -31px;

@@ -93,16 +93,16 @@ $component-name: "headerSuno";
         flex-direction: column;
         width: 230px;
         height: fit-content;
-        gap: 0px;
         z-index: 1;
+        gap: 0px;
         &::after {
           content: "";
           position: absolute;
           top: 20px;
-
-          clip-path: inset(0 -100vmax);
           box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
           z-index: -1;
+
+          clip-path: inset(0 -100vmax);
         }
       }
       > li {

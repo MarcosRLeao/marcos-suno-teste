@@ -22,14 +22,14 @@ $component-name: "sunoNews";
     }
 
     picture {
-      display: flex;
       position: relative;
+      display: flex;
 
       @media screen and (max-width: 1220px) {
         &::before {
           content: "";
-          @include mask($black, transparent, 50%);
           border-radius: 0 0 5px 5px;
+          @include mask($black, transparent, 50%);
         }
       }
 
@@ -37,8 +37,8 @@ $component-name: "sunoNews";
         display: block;
         width: 480px;
         height: 260px;
-        object-fit: cover;
         border-radius: 5px;
+        object-fit: cover;
 
         @media screen and (max-width: 1220px) {
           width: 100%;
@@ -124,10 +124,10 @@ $component-name: "sunoNews";
           margin-bottom: 16px;
 
           @media screen and (max-width: 1220px) {
+            color: $white;
             margin-top: -44px;
             margin-left: 12px;
             margin-bottom: 27px;
-            color: $white;
           }
         }
       }

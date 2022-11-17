@@ -69,8 +69,6 @@ $component-name: "sunoDarkBox";
         height: 50px;
         background: linear-gradient(0deg, $dark-box 20%, transparent 100%);
         z-index: 2;
-
-        
       }
 
       &__image {
@@ -112,7 +110,7 @@ $component-name: "sunoDarkBox";
     }
 
     &__tag {
-      letter-spacing: 0.44em;
+      letter-spacing: 7px;
       text-align: center;
       text-transform: uppercase;
       margin-top: 3px;
@@ -123,13 +121,12 @@ $component-name: "sunoDarkBox";
 
       &__parentheses {
         color: $white;
-        font-size: 11px;;
-        letter-spacing: 0.5em;
+        font-size: 11px;
+        letter-spacing: 8px;
         text-decoration: none;
         &::before,
         &::after {
           color: $suno-red;
-          
         }
 
         &::before {
@@ -285,9 +282,6 @@ $component-name: "sunoDarkBox";
 
       @media screen and (max-width: 1220px) {
         height: 260px;
-        @media screen and (max-width: 760px) {
-          height: unset;
-        }
       }
 
       &::before {
@@ -301,9 +295,14 @@ $component-name: "sunoDarkBox";
       picture {
         display: block;
         width: 100%;
+        height: auto;
         img {
           width: 100%;
           object-fit: cover;
+
+          @media screen and (max-width: 1220px) {
+            height: 260px;
+          }
         }
       }
     }
@@ -388,7 +387,7 @@ $component-name: "sunoDarkBox";
       color: $white;
       font-size: 14px;
       font-weight: 800;
-      letter-spacing: 0.16rem;
+      letter-spacing: 2.56px;
       text-transform: uppercase;
       text-decoration: none;
 
